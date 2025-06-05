@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    width: 100%;
+    height: 100vh;
+    font-family: "Urbanist", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.part1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2023/02/06/18/26/california-7772532_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.part2{
+    width: 100%;
+    height: 100vh;
+    background-image:url("https://cdn.pixabay.com/photo/2021/04/24/18/07/road-6204694_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.part3{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2021/10/28/20/49/castle-6750555_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
+.part4{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2022/09/06/14/40/beach-7436794_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* .part1 h1{
+    width: 100%;
+    height: 100vh;
+    font-family: "Urbanist", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+} */

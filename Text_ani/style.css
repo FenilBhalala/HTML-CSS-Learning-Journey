@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #865dff;
+    font-family: "Urbanist", sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 150px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+    position: relative;
+
+    &::before{
+        content: "FenilBhalala";
+        width: 50%;
+        text-transform: uppercase;
+        color: yellow;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-right: 10px solid yellow;
+        animation: textcolor 1s linear infinite alternate;
+    }
+}
+
+@keyframes textcolor {
+    0%{
+        width: 100%;
+    }
+    100%{
+        width: 0%;
+    }
+}

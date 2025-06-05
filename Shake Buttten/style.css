@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #191825;
+}
+
+button{
+    border: 5px solid #865dff;
+    text-transform: capitalize;
+    padding: 20px 50px;
+    font-weight: 800;
+    font-size: 50px;
+    background-color: transparent;
+    color: #fff;
+
+    &:hover{
+        border-color: red;
+        color: red;
+        animation: shaking 0.2s linear;
+    }
+
+}
+
+@keyframes shaking {
+        0% {
+            rotate: 20deg; 
+        }
+        50% {
+            rotate: -20deg;
+        }
+        100% {
+            rotate: 20deg;
+        }
+    }

@@ -1,0 +1,56 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.main-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 20px;
+}
+
+.circal{
+    width: 100px;
+    aspect-ratio: 1;
+    background-color: aqua;
+    border-radius: 50%;
+    box-shadow: rgba(6, 70, 218, 0.578) 0px 0px 0px 10px;
+
+}   
+
+.circal1{
+    transition: all 2s linear;
+}
+
+.circal2{
+    transition: all 2s ease;
+}
+
+.circal3{
+    transition: all 2s ease-in;
+}
+
+.circal4{
+    transition: all 2s ease-in-out;
+}
+
+.circal1:hover{
+    transform: translateX(90vw);
+}
+
+.circal2:hover{
+    transform: translateX(90vw);
+}
+
+.circal3:hover{
+    transform: translateX(90vw);
+}
+
+.circal4:hover{
+    transform: translateX(90vw);
+}
