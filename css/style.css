@@ -588,6 +588,10 @@ min-width 1200px	Monitors, Desktops */
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    & .manu ul .last-item{
+      margin-right: 0;
+    }
   }
 
   .last-item{
