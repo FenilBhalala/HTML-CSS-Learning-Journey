@@ -10,6 +10,10 @@
 
     <title>My Dev Diary - Video Page</title>
 
+    <!-- AOS - Animate on scroll library -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- google Font links -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,19 +60,19 @@
 
     <!-- Start videos Section -->
     <section class="section-videos">
-        <div class="container sections-heading">
+        <div class="container sections-heading" data-aos="fade-right">
             <h2 class="section-commen-title">Videos</h2>
             <p class="section-commen-para">This Section Show The My HTML & CSS Tutorial Journey – by Thapa Technical or whice Video i Watch</p>
         </div>
 
-        <div class="container">
+        <div class="container" data-aos="zoom-in">
             <div class="bolck">
                 <div class="card-title">
                     <h2>Thank To This Video i Aable to Mack This amazing projects</h2>
                 </div>
                 <div class="video grid grid-two--cols">
-                    <iframe src="https://www.youtube.com/embed/5ccq_nLHneE?si=yj8rXbgaJqxEatX-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <iframe src="https://www.youtube.com/embed/MSICFljRcb4?si=yBzAPG9t4sMWILuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/5ccq_nLHneE?si=yj8rXbgaJqxEatX-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen data-aos="fade-up" data-aos-delay="250"></iframe>
+                    <iframe src="https://www.youtube.com/embed/MSICFljRcb4?si=yBzAPG9t4sMWILuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen data-aos="fade-up"  data-aos-delay="500"></iframe>
                 </div>
             </div>
         </div>
@@ -107,6 +111,11 @@
         </div>
     </footer>
     <!-- End footer Section -->
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 </html>
