@@ -10,6 +10,10 @@
 
     <title>My Dev Diary - About Page</title>
 
+    <!-- AOS - Animate on scroll library -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- google Font links -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,14 +58,14 @@
 
     <!-- Start about Section -->
     <section class="section-about">
-        <div class="container sections-heading"> 
+        <div class="container sections-heading" data-aos="fade-right"> 
             <h2 class="section-commen-title">About Us</h2>
             <p class="section-commen-para">This Section tell About Me, This Website,website purpose,and Why I Created This Website </p>
         </div>
 
         <div class="container grid grid-there--cols">
 
-            <div class="about-card">
+            <div class="about-card" data-aos="fade-up">
                 <div class="img">
                     <img src="./img/About This Website.svg" alt="about this we image">
                 </div>
@@ -71,7 +75,7 @@
                 </div>
             </div>
 
-            <div class="about-card">
+            <div class="about-card" data-aos="fade-up"  data-aos-delay="300">
                 <div class="img">
                     <img src="./img/About Me.svg" alt="about this we image">
                 </div>
@@ -81,7 +85,7 @@
                 </div>
             </div>
 
-            <div class="about-card">
+            <div class="about-card" data-aos="fade-up"  data-aos-delay="600">
                 <div class="img">
                     <img src="./img/Why I Created This Website.svg" alt="about this we image">
                 </div>
@@ -127,6 +131,11 @@
         </div>
     </footer>
     <!-- End footer Section -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 </html>
