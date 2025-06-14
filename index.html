@@ -10,6 +10,10 @@
 
     <title>My Dev Diary</title>
 
+    <!-- AOS - Animate on scroll library -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- google Font links -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,7 +58,7 @@
         <!-- Start Hero Section -->
         <section class="section-hero">
             <div class="container grid grid-two--cols">
-                <div class="left-part">
+                <div class="left-part" data-aos="fade-right">
                     <h1 class="hearding-title">Welcome to My Web Dev Journey!</h1>
                     <p class="hearding-para">This website is a collection of everything I’ve built while learning HTML and CSS — from basic structures to fully responsive projects. It’s not just a portfolio; it’s a timeline of growth, creativity, and continuous learning. I’m excited to share my work and progress with you!</p>
                     <div class="heading-btns">
@@ -62,7 +66,7 @@
                         <a href="https://github.com/FenilBhalala/HTML-CSS-Learning-Journey">GitHub Repositorie</a>
                     </div>
                 </div>
-                <div class="rigth-part">
+                <div class="rigth-part" data-aos="fade-left">
                     <img src="./img/hero-img.svg" alt="">
                 </div>
             </div>
@@ -72,14 +76,14 @@
 
     <!-- Start about Section -->
     <section class="section-about">
-        <div class="container sections-heading"> 
+        <div class="container sections-heading" data-aos="fade-right"> 
             <h2 class="section-commen-title">About Us</h2>
             <p class="section-commen-para">This Section tell About Me, This Website,website purpose,and Why I Created This Website </p>
         </div>
 
         <div class="container grid grid-there--cols">
 
-            <div class="about-card">
+            <div class="about-card" data-aos="fade-up">
                 <div class="img">
                     <img src="./img/About This Website.svg" alt="about this we image">
                 </div>
@@ -89,7 +93,7 @@
                 </div>
             </div>
 
-            <div class="about-card">
+            <div class="about-card" data-aos="fade-up"  data-aos-delay="300">
                 <div class="img">
                     <img src="./img/About Me.svg" alt="about this we image">
                 </div>
@@ -99,7 +103,7 @@
                 </div>
             </div>
 
-            <div class="about-card">
+            <div class="about-card" data-aos="fade-up"  data-aos-delay="600">
                 <div class="img">
                     <img src="./img/Why I Created This Website.svg" alt="about this we image">
                 </div>
@@ -116,19 +120,19 @@
 
     <!-- Start videos Section -->
     <section class="section-videos">
-        <div class="container sections-heading">
+        <div class="container sections-heading" data-aos="fade-right">
             <h2 class="section-commen-title">Videos</h2>
             <p class="section-commen-para">This Section Show The My HTML & CSS Tutorial Journey – by Thapa Technical or whice Video i Watch</p>
         </div>
 
-        <div class="container">
+        <div class="container" data-aos="zoom-in">
             <div class="bolck">
                 <div class="card-title">
                     <h2>Thank To This Video i Aable to Mack This amazing projects</h2>
                 </div>
                 <div class="video grid grid-two--cols">
-                    <iframe src="https://www.youtube.com/embed/5ccq_nLHneE?si=yj8rXbgaJqxEatX-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <iframe src="https://www.youtube.com/embed/MSICFljRcb4?si=yBzAPG9t4sMWILuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/5ccq_nLHneE?si=yj8rXbgaJqxEatX-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen data-aos="fade-up" data-aos-delay="250"></iframe>
+                    <iframe src="https://www.youtube.com/embed/MSICFljRcb4?si=yBzAPG9t4sMWILuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen data-aos="fade-up"  data-aos-delay="500"></iframe>
                 </div>
             </div>
         </div>
@@ -137,7 +141,7 @@
 
     <!-- Start project Section -->
     <section class="section-projects">
-        <div class="container sections-heading">
+        <div class="container sections-heading" data-aos="fade-right">
             <h2 class="section-commen-title">projects</h2>
             <p class="section-commen-para">Here you’ll find all the mini and major projects I created during my HTML & CSS learning.</p>
         </div>
@@ -145,7 +149,7 @@
         <div class="container">
             <div class="projects grid grid-four--cols">
                 
-                <div class="card">
+                <div class="card" data-aos="flip-left">
                     <figure class="thumbnail">
                         <img src="./img/Parallax WebSite.png" alt="This is thumbnail of Parallax WebSite">
                     </figure>
@@ -157,7 +161,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="flip-left" data-aos-delay="300">
                     <figure class="thumbnail">
                         <img src="./img/Finel Project.png" alt="This is thumbnail of Finel Project">
                     </figure>
@@ -169,7 +173,7 @@
                     </div>
                 </div>
                 
-                <div class="card">
+                <div class="card" data-aos="flip-left" data-aos-delay="600">
                     <figure class="thumbnail">
                         <img src="./img/Rain in forest.png" alt="This is thumbnail of Rain in forest">
                     </figure>
@@ -181,7 +185,7 @@
                     </div>
                 </div>
                 
-                <div class="card">
+                <div class="card" data-aos="flip-left" data-aos-delay="900">
                     <figure class="thumbnail">
                         <img src="./img/other.png" alt="This is thumbnail of other">
                     </figure>
@@ -195,7 +199,7 @@
 
             </div>
 
-            <div class="more-btn">
+            <div class="more-btn" data-aos="fade-up">
                 <a href="./Projects.html">See More</a>
             </div>
         </div>
@@ -234,6 +238,11 @@
         </div>
     </footer>
     <!-- End footer Section -->
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 </html>
